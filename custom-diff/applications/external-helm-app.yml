@@ -23,7 +23,7 @@ spec:
       - CreateNamespace=true  
    
   ignoreDifferences:
-  - group: core
+  - group: core/v1
     kind: Secret
     jsonPointers:
     - /data
